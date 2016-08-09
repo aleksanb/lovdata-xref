@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Lovdata Cross-references",
+  "version": "1.0",
+  "description": "Adds cross-references to http://www.lovdata.no",
+  "content_scripts": [
+    {
+      "matches": ["https://lovdata.no/*"],
+      "js": ["lovdata-xref.js"]
+    }
+  ],
+  "developer": {
+    "name": "Aleksander Vognild Burkow",
+    "url": "https://burkow.no"
+  }
+}
+
